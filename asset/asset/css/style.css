@@ -180,6 +180,7 @@ html{
 .slider .text-desciption{
     /* tạp khoảng cách giữa .text-heading và  .text-desciption  */
          margin-top: 25px;
+
 }
 
 
@@ -426,7 +427,7 @@ html{
 .modal-header{
     background-color:#009688 ;
     color: white;
-    height: 130px;
+    height: 70px;
     font-size: 30px;
     /* Tọa khoảng cách giữa các chữ cái */
     letter-spacing: 5px;
@@ -472,7 +473,7 @@ html{
     cursor: pointer;
     font-size: 15px;
     margin: 16px 0;
-    padding: 16px;
+    padding: 10px;
     width: 100%;
 }
 #pay-btn:hover{
@@ -480,7 +481,7 @@ html{
     color: black;
 }
 .modal-footer{
-    padding: 16px;
+    padding: 10px;
     text-align: right;
 }
 
@@ -536,6 +537,12 @@ html{
          #nav li{
                  display: block;
          }
+         /* Slider */
+         
+         .slider .text-desciption{
+             margin-top: 10px;
+             font-size: 9px;
+         }
          
          .search-btn{
              display: none;
@@ -559,6 +566,8 @@ html{
              background-color: #ccc;
              color: black;
          }
+         /* content section */
+         
          /* member list */
          .content .member-item{
              /* làm cho các ảnh member nằm thành 1 hàng dọc  */
@@ -582,6 +591,9 @@ html{
          .col{
              float: none;
          }
+         .contact-content {
+             padding-top: 60px;
+         }
          /* tọa khoảng cách phía dưới(cách 16px với contact form submit) contact info */
          .contact-info {
             margin-bottom: 16px;
@@ -589,6 +601,12 @@ html{
          /* thay width:100% vào để làm cho các form submit có độ rộng bằng 100% vs trình duyệt */
          .col-hafl {
             width: 100%;
+         }
+         .contact-form form{
+             margin-top: 40px;
+         }
+         .contact-form .form-control {
+             padding: 15px;
          }
          .submit-btn{
              /* làm cho nút submit dài ra bằng vs trình duyệt */
@@ -598,7 +616,7 @@ html{
          }
          .social-contact a {
              /* phóng to các icon ở footer lên để cho người dùng dễ sử dụng */
-            font-size: 40px;
+            font-size: 30px;
          }
          
          
