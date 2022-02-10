@@ -150,9 +150,16 @@ html{
  /* set chiều cao cho bức ảnh( bằng 50% chiều rộng) */
  padding-top: 50%;
  background: url("/asset/img/img1.jpg") top center;
+ /* padding-top: 50%; */
+ /* background: url("/asset/img/img1.jpg") top center;
  background-repeat: no-repeat;
  background-size: cover ;
+ background-size: cover ; */
  position: relative;
+}
+.slider-img img{
+    width:100%;
+    
 }
 .slider .text-content{
      color: white;
