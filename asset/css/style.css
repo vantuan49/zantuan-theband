@@ -586,6 +586,8 @@ html{
          .buyticket-btn {
              /* phóng to nút buytickets để ng dùng dễ sử dụng */
             padding: 19px 19px ;
+            /* làm cho nút buy dài ra để dễ sử dụng */
+            width: 100%;
          }
          /* contact */
          .col{
@@ -613,6 +615,7 @@ html{
              width: 100%;
              /* phóng to nút submit đễ ng dùng dễ sử dụng */
              padding: 16px 16px;
+             -webkit-appearance: none;
          }
          .social-contact a {
              /* phóng to các icon ở footer lên để cho người dùng dễ sử dụng */
