@@ -149,7 +149,7 @@ html{
  margin-top: 46px;
  /* set chiều cao cho bức ảnh( bằng 50% chiều rộng) */
  padding-top: 50%;
- background: url('/asset/img/img1.jpg') top center;
+ background: url("/asset/img/img1.jpg") top center;
  background-repeat: no-repeat;
  background-size: cover ;
  position: relative;
@@ -490,4 +490,114 @@ html{
         opacity: 1;
           transform: translateY(0px);
     }
+}
+
+/* Responsive */
+/* PC */
+@media (min-width: 1024px ){
+  
+    /* ẩn nút menu khi đang trên pc */
+    .menu-mobile-btn{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    /* ẩn nút menu khi đang trên tablet */
+    .menu-mobile-btn{
+        display: none;
+   
+    }
+}
+/* Mobile */
+@media (max-width: 740px){
+        #header{
+            overflow: hidden;
+        }
+         #nav{
+             display: block; 
+          } 
+          #nav .subnav {
+              /* hiện phần subnav ở mobile */
+            position: initial;
+            background-color:#333 ;
+        }
+        #nav .subnav li{
+            padding: 2px 41px;
+        }
+        #nav .subnav a{
+            color: white;
+        }
+         #nav li{
+                 display: block;
+         }
+         
+         .search-btn{
+             display: none;
+         }
+         /* làm nút menu thay cho nút search  */
+         .menu-mobile-btn{
+             display: inline;
+             float: right; 
+             line-height: 46px;
+             color: white;
+             position: absolute;
+             top: 0;
+             right: 0;
+             /* hiện nút menu trên mobile */
+             display: block;
+         }
+         .menu-icon{
+            padding: 12px 24px;
+         }
+         .menu-mobile-btn:hover{
+             background-color: #ccc;
+             color: black;
+         }
+         /* member list */
+         .content .member-item{
+             /* làm cho các ảnh member nằm thành 1 hàng dọc  */
+             width: 100%;
+         }
+         .places-item {
+             /* làm cho các place item nằm thành 1 hàng dọc */
+            width: 100%;
+            /* tọa khoảng cách giữa các place item */
+            margin: 16px 0;
+         }
+         .member-item .name{
+             /* Tọa khoảng cách giữa các tên  */
+             margin: 15px 0px;
+         }
+         .buyticket-btn {
+             /* phóng to nút buytickets để ng dùng dễ sử dụng */
+            padding: 19px 19px ;
+         }
+         /* contact */
+         .col{
+             float: none;
+         }
+         /* tọa khoảng cách phía dưới(cách 16px với contact form submit) contact info */
+         .contact-info {
+            margin-bottom: 16px;
+         }
+         /* thay width:100% vào để làm cho các form submit có độ rộng bằng 100% vs trình duyệt */
+         .col-hafl {
+            width: 100%;
+         }
+         .submit-btn{
+             /* làm cho nút submit dài ra bằng vs trình duyệt */
+             width: 100%;
+             /* phóng to nút submit đễ ng dùng dễ sử dụng */
+             padding: 16px 16px;
+         }
+         .social-contact a {
+             /* phóng to các icon ở footer lên để cho người dùng dễ sử dụng */
+            font-size: 40px;
+         }
+         
+         
+         
+
 }
