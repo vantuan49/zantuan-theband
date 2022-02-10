@@ -47,10 +47,6 @@ html{
 }
 
 
-#main{
- 
-}
-
 #header{
      height: 46px;
      background-color: #000;
@@ -153,7 +149,7 @@ html{
  margin-top: 46px;
  /* set chiều cao cho bức ảnh( bằng 50% chiều rộng) */
  padding-top: 50%;
- background: url('/asset/img/chicago.jpg') top center;
+ background: url('/asset/img/img1.jpg') top center;
  background-repeat: no-repeat;
  background-size: cover ;
  position: relative;
@@ -182,11 +178,7 @@ html{
          margin-top: 25px;
 }
 
-.content{
-   
 
-
-}
 .content-section{
     width: 800px;
     max-width: 100%;
@@ -290,12 +282,7 @@ html{
    
 
 }
-.places-item{
-   
-    /* width: calc(100%/3); */
-    
-   
-}
+
 .places-img{
     width: 100%;
     display: block;
@@ -383,9 +370,7 @@ html{
     padding: 64px 16px;
     text-align: center;
 }
-.footer-section{
-    
-}
+
 
 .social-contact a{
     font-size: 24px;
@@ -494,9 +479,7 @@ html{
     padding: 16px;
     text-align: right;
 }
-.modal-help{
-    
-}
+
 
 @keyframes modalFadeIn{
     from {
