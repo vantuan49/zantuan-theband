@@ -169,6 +169,7 @@ html{
     transform: translateX(-50%);
     /* căn giữa cho chữ  */
     text-align: center;
+    text-shadow: 0 0 2px black;
    
     
 }
